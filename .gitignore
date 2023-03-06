@@ -1,0 +1,6 @@
+## remix compile files
+artifacts
+.deps
+
+## node files
+node_modules

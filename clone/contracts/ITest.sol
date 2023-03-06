@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
+interface ITest {
+    function initialize(address _owner, string memory _name) external;
+
+    function clone(address _owner, string memory _name) external;
+}
